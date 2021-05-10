@@ -32,7 +32,7 @@ h1 {
   width: 350px;
   height: 400px;
 
-  font-size: 56px;
+  font-size: 58px;
 
   position: absolute;
   top: 0;
@@ -83,6 +83,7 @@ h1 {
   text-align: center;
   
   line-height: 100px;
+  font-size: 22px;
 }
 
 /* photo-container */
@@ -213,4 +214,18 @@ form button {
   outline: none;
   width: 30px;
   height: 30px;
+}
+
+/* footer container */
+footer {
+  margin: 50px 150px 200px 150px;
+  border-top: solid 2px black;
+}
+
+footer p {
+  padding-bottom: 40px;
+}
+
+footer a {
+  text-decoration: none;
 }
