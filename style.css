@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+
+  font-family: Garamond; 
+}
+
+body {
+  min-height: 100%;
+  min-width: 100%;
+
+  background-color: #ffe8d6;
+}
+
+/* header style */
+h1 {
+  display: inline;
+  margin: 5px;
+  float: left;
+}
+
+.header-image {
+  width: 350px;
+  height: 400px;
+
+  position: absolute;
+  top: 0;
+  right: 200px;
+}
+
+.menu-link {
+  display: inline;
+  float: right;
+  margin: 5px;
+  color: black;
+}
