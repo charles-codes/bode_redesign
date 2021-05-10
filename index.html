@@ -216,10 +216,31 @@
     
       <iframe width="600" height="500" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJgb0ajOpbwokRdSp9a3h4YlM&key=AIzaSyA-VRbeurHcIkamEmK-eIamY62p2S1GpPU"></iframe>
     </div>
-
-    
   </div>
-    
+  
+  <div class="email-signup-container">
+
+
+    <form>
+      <label for="email">Stay up to date with <strong>BODE</strong></label>
+      <br><br>
+      <input type="email" id="email" name="email" placeholder="email" autocorrect="off" autocapitalize="off" required>
+      <button><i class="fas fa-sign-in-alt"></i></button>
+    </form>
+
+    <script>
+      const email = document.getElementById("email");
+
+      email.addEventListener("input", function (event) {
+        if (email.validity.typeMismatch) {
+          email.setCustomValidity("I am expecting an email address.");
+        } else {
+          email.setCustomValidity("");
+        }
+      });
+    </script>
+  </div>
+
   <footer></footer>
 </body>
 </html>
