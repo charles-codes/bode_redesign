@@ -16,10 +16,30 @@ body {
 }
 
 /* header style */
+header {
+  width: 100%;
+  height: 400px;
+}
+
 h1 {
   display: inline;
-  margin: 5px;
+  margin: 15px;
   float: left;
+}
+
+.brand-blurb {
+  width: 350px;
+  height: 400px;
+
+  font-size: 56px;
+
+  position: absolute;
+  top: 0;
+  left: 200px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-image {
@@ -34,6 +54,30 @@ h1 {
 .menu-link {
   display: inline;
   float: right;
-  margin: 5px;
+  margin: 15px;
   color: black;
+}
+
+/* about-container div */
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 200px;
+}
+
+.text-items {
+  width: 100%;
+  height: 200px;
+  margin: 15px;
+
+  text-align: left;
+}
+
+.title {
+  text-align: center;
+  
+  line-height: 100px;
 }
