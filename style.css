@@ -201,14 +201,14 @@ form input {
 input[type=email] {
   width: 250px;
   height: 50px;
-  background-color: #ffe8d6;
+  background-color: #ddbea9;
   font-size: 20px;
   font-family: Garamond;
 }
 
 form button {
   background-color: black;
-  color: #ffe8d6;
+  color: #ddbea9;
   border-radius: 5px;
   outline: none;
   width: 30px;
