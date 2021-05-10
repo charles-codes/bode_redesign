@@ -113,7 +113,46 @@ h1 {
   width: 100%;
 }
 
-.slideshow-container {
+.product-container img {
   width: 350px;
   height: 400px;
+}
+
+/* style for 3D card flip animation */
+.scene {
+  width: 200px;
+  height: 260px;
+  perspective: 600px;
+}
+
+.card {
+  width: 350px;
+  height: 400px;
+  position: relative;
+  transition: all 1s;
+  transform-style: preserve-3d;
+  /* transform-origin: center right; */
+  color: white;
+  text-align: center;
+  line-height: 260px;
+}
+
+.card_face {
+  position: absolute;
+  width: 350px;
+  height: 400px;
+  backface-visibility: hidden;
+}
+
+.card_front {
+/*  */
+}
+
+.card_back {
+  transform: rotateY(180deg);
+}
+
+.card.is_flipped {
+  transform: rotateY(180deg);
+  /* transform: translateX(-100%) rotateY(-180deg); */
 }

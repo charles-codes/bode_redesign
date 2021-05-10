@@ -42,11 +42,29 @@
     <img src="./layout_images/IMG_3361.PNG" alt="" class="container-image">
   </div>
 
-  <div class="product-container"></div>
-
-    
+  <div class="product-container">
+    <div class="scene">
+      <div class="card">
+        <div class="card_face card_front">
+          <img src="./product_images/kantha_jacket_1.jpeg" alt="Aquamarine Kantha Quilt Jacket">
+        </div>
+        <div class="card_face card_back">
+          <img src="./product_images/kantha_jacket_2.jpeg" alt="Aquamarine Kantha Quilt Jacket">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
   <div class="location-container"></div>
 
   <footer></footer>
+
+  <script type="text/javascript">
+    var card = document.querySelector('.card');
+    card.addEventListener('click', function() {
+      card.classList.toggle('is_flipped');
+    });
+  </script>
 </body>
 </html>
